@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back2"
-    tools:context=".Main_banking">
+    android:background="@drawable/background"
+    tools:context=" .Banking">
 
-    <TextView
+
+<TextView
         android:id="@+id/details"
 
         android:layout_width="match_parent"
@@ -57,7 +58,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/add_money"
+                    android:background="@drawable/add_money">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -100,7 +103,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/details"
+                    android:background="@drawable/details">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -142,7 +147,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/transactions"
+                    android:background="@drawable/transactions">
+
+                </ImageView>
 
 
 
@@ -186,7 +193,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/loan"
+                    android:background="@drawable/loan">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -231,7 +240,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/about_us"
+                    android:background="@drawable/about_us">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -274,7 +285,9 @@
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/logout"
+                    android:background="@drawable/logout">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
