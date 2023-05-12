@@ -12,9 +12,18 @@
         android:theme="@style/Theme.PROJECT"
         tools:targetApi="31">
         <activity
-            android:name=".welcome_page"
-            android:theme="@style/Theme.Design.NoActionBar"
+            android:name=".Signup"
             android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".welcome_page"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
