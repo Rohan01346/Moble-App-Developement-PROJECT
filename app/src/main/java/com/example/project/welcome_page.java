@@ -23,3 +23,4 @@ public class welcome_page extends AppCompatActivity {
         },1500);
      }
 }
+
