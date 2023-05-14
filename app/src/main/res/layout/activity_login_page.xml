@@ -14,7 +14,7 @@
         android:fontFamily="serif"
         android:gravity="center_vertical"
         android:text="    Sign in to continue"
-        android:background="@drawable/header"
+        android:background="@drawable/title_back_2"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold" />

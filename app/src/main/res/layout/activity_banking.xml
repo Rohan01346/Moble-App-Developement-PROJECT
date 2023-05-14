@@ -157,7 +157,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="serif"
-                    android:text="TRANSACTIONS"
+                    android:text="SEND MONEY"
                     android:textSize="20dp"
                     android:textAlignment="center"
                     android:textColor="@color/design_default_color_error"
