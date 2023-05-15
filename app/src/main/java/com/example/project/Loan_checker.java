@@ -1,6 +1,8 @@
 package com.example.project;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,6 +14,7 @@ public class Loan_checker extends AppCompatActivity {
     EditText id_loan_name;
     EditText id_loan_account_number;
     EditText id_amount_want;
+    Button id_back_2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,6 +23,7 @@ public class Loan_checker extends AppCompatActivity {
         id_loan_account_number=findViewById(R.id.loan_account_number);
         id_loan_name=findViewById(R.id.loan_name);
         id_amount_want=findViewById(R.id.amount_want);
+        id_back_2=findViewById(R.id.back_2);
         id_check.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,6 +36,12 @@ public class Loan_checker extends AppCompatActivity {
                 else {
                     Toast.makeText(getApplicationContext(), "You are Eligibile!!", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        id_back_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Loan_checker.this,Banking.class));
             }
         });
     }
