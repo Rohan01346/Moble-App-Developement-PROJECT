@@ -7,6 +7,97 @@
     android:background="@drawable/inside_background"
     tools:context=".Loan_checker">
 
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/title_back_2"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="LOAN CREDIBILTIY"
+        android:textColor="@color/material_dynamic_neutral_variant100"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/loan_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_account_circle_24"
+        android:drawablePadding="20dp"
+        android:hint="Name"
+        android:fontFamily="serif"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:id="@+id/loan_account_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loan_name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Account Number"
+        android:fontFamily="serif"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
+    <EditText
+        android:id="@+id/amount_want"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loan_account_number"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableStart="@drawable/baseline_currency_rupee_24"
+        android:drawablePadding="20dp"
+        android:hint="Amount"
+        android:inputType=""
+        android:fontFamily="serif"
+        android:padding="20dp"
+        android:textColorHint="@color/white" />
 
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/amount_want"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:fontFamily="serif"
+        android:text="CHECK"
+        android:textSize="30sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/check"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:fontFamily="serif"
+        android:text="HOME"
+        android:textSize="20sp" />
 
 </RelativeLayout>
