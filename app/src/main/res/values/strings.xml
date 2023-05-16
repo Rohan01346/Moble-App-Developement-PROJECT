@@ -44,4 +44,8 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="home">home\n</string>
+    <string name="HOME">HOME</string>
+    <string name="Balance">Balance</string>
+    <string name="Home">HOME</string>
 </resources>
