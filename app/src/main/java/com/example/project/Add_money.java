@@ -10,7 +10,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-public class Transaction extends AppCompatActivity {
+public class Add_money extends AppCompatActivity {
 
     EditText id_send_account_number;
     EditText id_send_password;
