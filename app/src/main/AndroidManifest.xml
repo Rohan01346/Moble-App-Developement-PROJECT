@@ -12,19 +12,14 @@
         android:theme="@style/Theme.PROJECT"
         tools:targetApi="31" >
         <activity
+            android:name=".Add_money"
+            android:exported="false" />
+        <activity
             android:name=".Loan_checker"
             android:exported="true" >
         </activity>
         <activity
-            android:name=".Account_details"
-            android:exported="true" >
-        </activity>
-        <activity
             android:name=".About_us"
-            android:exported="true" >
-        </activity>
-        <activity
-            android:name=".Add_money"
             android:exported="true" >
         </activity>
         <activity
