@@ -25,16 +25,21 @@
         android:textStyle="bold" >
 
     </TextView>
+
     <TextView
         android:id="@+id/about_HEY"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/aboutus"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="serif"
         android:text="HEY!!! WELCOME"
+        android:textSize="30dp"
         android:textColor="@color/material_dynamic_neutral_variant100"
-        android:textStyle="bold" >
+        android:textStyle="bold">
 
     </TextView>
 
@@ -43,11 +48,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/about_HEY"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
         android:fontFamily="serif"
         android:text="The app is collectively of features commonly used in banking .The transaction and loan credibility can be easily checked with having a registration of account (signup/login) which also further password protected."
         android:textColor="@color/material_dynamic_neutral_variant100"
-        android:textStyle="bold" >
+        android:textSize="18dp"
+        android:textStyle="bold">
 
     </TextView>
 
@@ -57,10 +66,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/about_content2"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="serif"
+        android:textSize="18dp"
         android:text="The appication developed by Rohan Bhargava (211b259),Rudra Srivastava (211b260),Sachin Singh (211b261). The idea and guidance uder the supervision of Dr.Prateek Pandey (CSE)."
         android:textColor="@color/material_dynamic_neutral_variant100"
         android:textStyle="bold">
@@ -73,17 +82,27 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/about_content3"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
         android:fontFamily="serif"
         android:gravity="bottom"
+        android:textSize="18dp"
         android:text="THANKS!!! For using the app! For further feedback check out contact us."
         android:textColor="@color/material_dynamic_neutral_variant100"
         android:textStyle="bold">
 
     </TextView>
-
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/back_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_content4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:fontFamily="serif"
+        android:text="HOME"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>
