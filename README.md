@@ -12,11 +12,9 @@ Account Registration: Users can register for an account by providing their perso
 
 Account Login: Users can log in to their account using their username and password.
 
-Balance Enquiry: Users can check their account balance by selecting the balance enquiry option.
+Balance Enquiry: Users can check their account balance by selecting the account details option.
 
 Fund Transfer: Users can transfer funds from their account to another account by providing the recipient's account details such as account number, bank name, and IFSC code.
-
-Transaction History: Users can view their transaction history to keep track of their account activity.
 
 Usage
 To use the Android app, follow these steps:
@@ -25,14 +23,10 @@ Open the app and select the register option to create an account.
 
 Once you have registered, log in to your account using your username and password.
 
-You can check your account balance by selecting the balance enquiry option.
+You can check your account balance by selecting the account details option.
 
 To transfer funds, select the fund transfer option and provide the recipient's account details.
 
-You can view your transaction history by selecting the transaction history option.
 
-Security
-This Android app is designed with security in mind to protect the user's financial information. The app uses encryption to protect user data and login credentials.
-
-Contact
+Contact us:
 If you have any questions or concerns regarding this Android app, please contact us at 211b261@juetguna.in We are happy to help and appreciate your feedback.
