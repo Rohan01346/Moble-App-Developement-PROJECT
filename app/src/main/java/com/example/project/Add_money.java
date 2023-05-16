@@ -12,41 +12,41 @@ import android.widget.Toast;
 
 public class Add_money extends AppCompatActivity {
 
-    EditText id_send_account_number;
-    EditText id_send_password;
-    EditText id_send_amount;
-    Button id_transfer;
-    Button id_back_1;
+    EditText id_add_account_number;
+    EditText id_add_password;
+    EditText id_add_amount;
+    Button id_add_money;
+    Button id_back_4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_transaction);
-        id_send_account_number = findViewById(R.id.send_to_account_number);
-        id_send_password = findViewById(R.id.send_pass);
-        id_send_amount = findViewById(R.id.amount_send);
-        id_transfer=findViewById(R.id.transfer_button);
-        id_back_1 = findViewById(R.id.back_1);
+        setContentView(R.layout.activity_add_money);
+        id_add_account_number = findViewById(R.id.add_to_account_number);
+        id_add_password = findViewById(R.id.add_pass);
+        id_add_amount = findViewById(R.id.amount_add);
+        id_add_money=findViewById(R.id.add_money);
+        id_back_4 = findViewById(R.id.back_4);
 
-        id_transfer.setOnClickListener(new View.OnClickListener() {
+        id_add_money.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String send_account_number = id_send_account_number.getText().toString();
-                String send_password = id_send_password.getText().toString();
-                String send_amount = id_send_amount.getText().toString();
-                if(send_amount.length()==0 || send_password.length()==0 || send_account_number.length()==0)
+                String add_account_number = id_add_account_number.getText().toString();
+                String add_password = id_add_password.getText().toString();
+                String add_amount = id_add_amount.getText().toString();
+                if(add_amount.length()==0 || add_password.length()==0 || add_account_number.length()==0)
                 {
                     Toast.makeText(getApplicationContext(),"Fill all details", Toast.LENGTH_SHORT).show();
                 }
                 else {
-                    Toast.makeText(getApplicationContext(), "Transfered"+" "+send_amount, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "amount added successfully"+" "+id_add_money, Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        id_back_1.setOnClickListener(new View.OnClickListener() {
+        id_back_4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Transaction.this,Banking.class));
+                startActivity(new Intent(Add_money.this,Banking.class));
             }
         });
 
