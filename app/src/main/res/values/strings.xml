@@ -62,4 +62,10 @@
     <string name="account">Account Number</string>
     <string name="user">Username</string>
     <string name="money">Balance</string>
+    <string name="account_detail">Account Details</string>
+    <string name="nam">Name :</string>
+    <string name="usernam">Username :</string>
+    <string name="mail">Email :</string>
+    <string name="account_numbe">Account Number :</string>
+    <string name="balanc">Balance :</string>
 </resources>

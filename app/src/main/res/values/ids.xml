@@ -1,10 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="name1" type="id">name1</item>
-    <item name="username1" type="id">username1</item>
-    <item name="Email" type="id">Email</item>
-    <item name="Email1" type="id">Email1</item>
-    <item name="Account_number1" type="id">Account_number1</item>
-    <item name="Balance1" type="id">Balance1</item>
-    <item name="Home" type="id">Home</item>
+
 </resources>
