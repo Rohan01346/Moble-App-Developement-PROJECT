@@ -15,12 +15,160 @@
         android:background="@drawable/title_back_2"
         android:fontFamily="serif"
         android:gravity="center"
-        android:text="Account Details"
+        android:text="@string/account_details"
         android:textColor="@color/white"
-        android:textSize="35dp"
+        android:textSize="35sp"
         android:textStyle="bold" />
 
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="10dp"
+        android:background="#30ffffff"
+        android:drawablePadding="5sp"
+        android:layout_below="@+id/Account_details"
+        android:fontFamily="serif"
+        android:text="@string/name"
+        android:padding="7dp"
+        android:textSize="25sp"
+       android:textColor="@color/white"
+        app:drawableLeftCompat="@drawable/baseline_person_24" />
 
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="253dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/Account_details"
+        android:layout_marginStart="150dp"
+        android:fontFamily="serif"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="160dp"
+        android:layout_height="55dp"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="#30ffffff"
+        android:fontFamily="serif"
+        android:padding="7dp"
+        android:text="@string/user"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:drawableLeftCompat="@drawable/baseline_person_24"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/username1"
+        android:layout_width="233dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/name1"
+        android:layout_marginStart="170dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/username"
+        android:layout_marginStart="10dp"
+        android:fontFamily="serif"
+        android:text="@string/em"
+        android:padding="7dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:drawableLeftCompat="@drawable/baseline_email_24" />
+
+    <TextView
+        android:id="@+id/Email1"
+        android:layout_width="253dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/username1"
+        android:layout_marginStart="150dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/Account_number"
+        android:layout_width="140dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/Email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="25dp"
+        android:background="#30ffffff"
+        android:fontFamily="serif"
+        android:padding="7dp"
+        android:text="@string/account"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:drawableLeftCompat="@drawable/baseline_account_circle_24"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/Account_number1"
+        android:layout_width="253dp"
+        android:layout_height="70dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/Email1"
+        android:layout_marginStart="150dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/Balance"
+        android:layout_width="140dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/Account_number"
+        android:layout_marginStart="10dp"
+        android:fontFamily="serif"
+        android:text="@string/money"
+        android:padding="7dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:drawableLeftCompat="@drawable/baseline_currency_rupee_24" />
+
+    <TextView
+        android:id="@+id/Balance1"
+        android:layout_width="253dp"
+        android:layout_height="55dp"
+        android:background="#30ffffff"
+        android:layout_below="@+id/Account_number1"
+        android:layout_marginStart="150dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Balance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/design_default_color_secondary"
+        android:fontFamily="serif"
+        android:text="@string/Home"
+        android:textColor="#546E7A"
+        android:textSize="30sp" />
 
 
 

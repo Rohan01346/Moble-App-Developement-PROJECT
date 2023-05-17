@@ -48,4 +48,18 @@
     <string name="HOME">HOME</string>
     <string name="Balance">Balance</string>
     <string name="Home">HOME</string>
+    <string name="name">Name</string>
+    <string name="account_details">Account Details</string>
+    <string name="username">Username:</string>
+    <string name="email">Email:</string>
+    <string name="account_number">Account Number:</string>
+    <string name="balance">Balance:</string>
+    <string name="Email">Email</string>
+    <string name="emai">Email</string>
+    <string name="em">Email</string>
+    <string name="balnc">Balance</string>
+    <string name="account_numb">Account Number</string>
+    <string name="account">Account Number</string>
+    <string name="user">Username</string>
+    <string name="money">Balance</string>
 </resources>
