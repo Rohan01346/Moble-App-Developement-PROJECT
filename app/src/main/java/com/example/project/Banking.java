@@ -36,3 +36,44 @@ public class Banking extends AppCompatActivity {
                 startActivity(new Intent(Banking.this,Add_money.class));
             }
         });
+
+        account_details.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Banking.this,Account_details.class));
+            }
+        });
+
+        send_money.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Banking.this,Transaction.class));
+            }
+        });
+
+        loan_checker.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Banking.this,Loan_checker.class));
+            }
+        });
+
+        about_us.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Banking.this,About_us.class));
+            }
+        });
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences.Editor editor = sharedPreferences.edit();
+                editor.clear();
+                editor.apply();
+                Toast.makeText(getApplicationContext(),"Logout",Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(Banking.this,Login_page.class));
+            }
+        });
+    }
+}
