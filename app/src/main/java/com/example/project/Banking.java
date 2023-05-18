@@ -18,8 +18,8 @@ public class Banking extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SharedPreferences sharedPreferences = getSharedPreferences("shared_username", Context.MODE_PRIVATE);
-        String username = sharedPreferences.getString("username","").toString();
+        SharedPreferences sharedPreferences = getSharedPreferences("shared", Context.MODE_PRIVATE);
+        String username = sharedPreferences.getString("login_username","").toString();
         Toast.makeText(getApplicationContext(),"Welcome"+" "+username,Toast.LENGTH_SHORT).show();
 
         setContentView(R.layout.activity_banking);

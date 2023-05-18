@@ -182,7 +182,6 @@
             android:backgroundTint="@color/material_dynamic_primary80"
             android:fontFamily="serif"
             android:text="@string/Home"
-            android:textColor="#546E7A"
             android:textSize="30sp" />
 
 
