@@ -34,7 +34,7 @@
         android:background="#30ffffff"
         android:drawableLeft="@drawable/baseline_person_24"
         android:drawablePadding="20dp"
-        android:hint="Account Number"
+        android:hint="To - Account Number"
         android:fontFamily="serif"
         android:padding="20dp"
         android:textColorHint="@color/white" />
@@ -67,7 +67,7 @@
         android:background="#30ffffff"
         android:drawableStart="@drawable/baseline_currency_rupee_24"
         android:drawablePadding="20dp"
-        android:hint="Amount"
+        android:hint=" Send Amount"
         android:inputType=""
         android:fontFamily="serif"
         android:padding="20dp"

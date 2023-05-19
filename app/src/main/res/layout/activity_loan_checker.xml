@@ -52,7 +52,6 @@
         android:drawablePadding="20dp"
         android:hint="Account Number"
         android:fontFamily="serif"
-        android:inputType="textPassword"
         android:padding="20dp"
         android:textColorHint="@color/white" />
     <EditText
