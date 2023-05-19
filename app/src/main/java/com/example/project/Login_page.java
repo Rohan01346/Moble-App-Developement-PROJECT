@@ -70,11 +70,30 @@ public class Login_page extends AppCompatActivity {
                 } else {
                     if(db.login(username,password)==1)
                     {
-                        SharedPreferences sharedPreferences;
+                        int balance;
+                        String email;
+                        String name;
+                        String account_no;
+                        balance=db.select_balance(username);
+                        email=db.select_email(username);
+                        name= db.select_name(username);
+                        account_no=db.select_account_no(username);
+
+
+                        SharedPreferences sharedPreferences,welcome;
                         sharedPreferences = getSharedPreferences("shared",Context.MODE_PRIVATE);
                         SharedPreferences.Editor editor = sharedPreferences.edit();
-                        editor.putString("login_username",username);
+                        editor.putString("username",username);
+                        editor.putInt("balance",balance);
+                        editor.putString("email",email);
+                        editor.putString("name",name);
+                        editor.putString("account_no",account_no);
+                        editor.putString("password",password);
+
                         editor.apply();
+
+                        welcome = getSharedPreferences("welcome",Context.MODE_PRIVATE);
+                        welcome.edit().putString("in_bank","1").apply();
                         Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_SHORT).show();
                         startActivity(new Intent(Login_page.this, Banking.class));
                     }

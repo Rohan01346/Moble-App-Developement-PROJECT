@@ -113,26 +113,16 @@ public class Signup extends AppCompatActivity {
                             {
                                 int random_account;
                                 String random_account_no;
-                                random_account=rand.nextInt();
-                                while(db.account_no_check(random_account)!=0)
+                                random_account=rand.nextInt(100);
+                                random_account_no="BANK"+Integer.toString(random_account);
+                                while(db.account_no_check(random_account_no)!=0)
                                 {
-                                    random_account=rand.nextInt();
+                                    random_account=rand.nextInt(100);
+                                    random_account_no="BANK"+Integer.toString(random_account);
                                 }
-                                random_account_no="BANK";
-                                random_account_no=random_account_no+Integer.toString(random_account);
-
-
-                                SharedPreferences sharedPreferences;
-                                sharedPreferences = getSharedPreferences("shared", Context.MODE_PRIVATE);
-                                SharedPreferences.Editor editor = sharedPreferences.edit();
-                                editor.putString("signup_username",signup_username);
-                                editor.putString("signup_account_no",random_account_no);
-                                editor.putString("signup_balance","500");
-                                editor.apply();
-
 
                                 db.details_insert(signup_username,random_account_no,500);
-                                Toast.makeText(getApplicationContext(), "Registered", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(getApplicationContext(), "Registered"+" "+random_account_no, Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(Signup.this, Login_page.class));
                             }
                             else {
