@@ -88,17 +88,17 @@ public class Transaction extends AppCompatActivity {
 
 
 
-        AlertDialog.Builder passowrd1 = new AlertDialog.Builder(this);
-        passowrd1.setTitle("Transaction Failed");
-        passowrd1.setMessage("Insufficient Balance .");
-        passowrd1.setIcon(R.drawable.empty_error);
-        passowrd1.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+        AlertDialog.Builder failed = new AlertDialog.Builder(this);
+        failed.setTitle("Transaction Failed");
+        failed.setMessage("Insufficient Balance .");
+        failed.setIcon(R.drawable.empty_error);
+        failed.setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
 
             }
         });
-        AlertDialog alert_5 = passowrd.create();
+        AlertDialog alert_5 = failed.create();
 
 
         id_transfer.setOnClickListener(new View.OnClickListener() {

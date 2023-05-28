@@ -54,21 +54,24 @@
             android:background="#30ffffff"
             android:fontFamily="serif"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/username1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:drawablePadding="5sp"
             android:layout_below="@+id/name_show"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:drawablePadding="5sp"
             android:fontFamily="serif"
-            android:text="Username :"
-            android:textStyle="bold"
             android:padding="7dp"
+            android:text="Username :"
+            android:textColor="@color/white"
             android:textSize="25sp"
-            android:textColor="@color/white" />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/username_show"
@@ -82,15 +85,14 @@
             android:background="#30ffffff"
             android:fontFamily="serif"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/gmail1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/username_show"
-            android:textStyle="bold"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
@@ -99,7 +101,8 @@
             android:padding="7dp"
             android:text="Email :"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
 
         <TextView
@@ -114,24 +117,24 @@
             android:background="#30ffffff"
             android:fontFamily="serif"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/account_number1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/email_show"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
-            android:textStyle="bold"
             android:drawablePadding="5sp"
             android:fontFamily="serif"
             android:padding="7dp"
             android:text="Account Number :"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
 
         <TextView
@@ -146,16 +149,15 @@
             android:background="#30ffffff"
             android:fontFamily="serif"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/balance1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/account_show"
-            android:layout_margin="10dp"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="10dp"
-            android:textStyle="bold"
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:drawablePadding="5sp"
@@ -163,7 +165,8 @@
             android:padding="7dp"
             android:text="Balance :"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:textStyle="bold" />
 
 
         <TextView
@@ -178,7 +181,7 @@
             android:layout_below="@id/balance1"
             android:fontFamily="serif"
             android:textColor="@color/white"
-            android:textSize="25sp" />
+            android:textSize="20sp" />
 
 
         <com.google.android.material.button.MaterialButton

@@ -85,9 +85,10 @@ public class Add_money extends AppCompatActivity {
                 String add_account_number = id_add_account_number.getText().toString();
                 String add_password = id_add_password.getText().toString();
                 String amount = id_add_amount.getText().toString();
-                int add_amount=Integer.parseInt(amount);
+
                 if(amount.length()!=0 || add_password.length()!=0 || add_account_number.length()!=0)
                 {
+                    int add_amount=Integer.parseInt(amount);
                     if(add_account_number.equals(account_no) && add_password.equals(password))
                     {
                         db.update_add_amount(add_amount,username);
@@ -98,8 +99,6 @@ public class Add_money extends AppCompatActivity {
                     else {
                         alert_1.show();
                     }
-
-
 
 
                 }

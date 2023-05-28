@@ -89,7 +89,7 @@ public class Login_page extends AppCompatActivity {
                         editor.putString("name",name);
                         editor.putString("account_no",account_no);
                         editor.putString("password",password);
-
+                        editor.putString("inside","1");
                         editor.apply();
 
                         welcome = getSharedPreferences("welcome",Context.MODE_PRIVATE);

@@ -78,6 +78,7 @@ public class Banking extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.clear();
                 editor.apply();
+                editor.putString("inside","0");
                 Toast.makeText(getApplicationContext(),"Logout",Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(Banking.this,Login_page.class));
             }
